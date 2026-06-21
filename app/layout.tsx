@@ -11,9 +11,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'ATS Resume Optimizer',
+  description: 'analyze and optimize your resume for ATS systems',
+  generator: 'Divyansh Upadhyay',
   icons: {
     icon: [
       {
