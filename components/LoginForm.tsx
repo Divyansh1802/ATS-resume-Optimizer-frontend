@@ -64,7 +64,7 @@ export default function LoginForm({ onSuccess }: LoginFormProps) {
     <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-2xl dark:shadow-2xl p-8 space-y-6 transition-colors duration-200">
       <div className="text-center">
         <h1 className="text-3xl font-bold text-slate-900 dark:text-white mb-2">ATS Optimizer</h1>
-        <p className="text-slate-600 dark:text-slate-400">Optimize your resume for ATS systems</p>
+        <p className="text-slate-600 dark:text-slate-400">powered by ~ Divyansh Upadhyay</p>
       </div>
 
       {/* Google OAuth Button */}
