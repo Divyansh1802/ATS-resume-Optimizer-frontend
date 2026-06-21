@@ -8,7 +8,7 @@ export function middleware(request: NextRequest) {
     // Check for authentication cookie
     const authToken = 
       request.cookies.get('jwt')?.value ||
-      request.cookies.get('access_token')?.value;
+      request.cookies.get('jwt_ATSresume')?.value;
 
     // If no auth cookie found, redirect to login
     if (!authToken) {
@@ -20,7 +20,7 @@ export function middleware(request: NextRequest) {
   if (pathname === '/login') {
     const authToken = 
       request.cookies.get('jwt')?.value ||
-      request.cookies.get('access_token')?.value;
+      request.cookies.get('jwt_ATSresume')?.value;
 
     if (authToken) {
       return NextResponse.redirect(new URL('/', request.url));
